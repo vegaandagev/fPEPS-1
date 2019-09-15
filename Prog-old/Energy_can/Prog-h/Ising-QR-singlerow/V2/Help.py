@@ -1,0 +1,12 @@
+A_t=uni10.Contract(IsoP,IsoP_t)
+A_t=uni10.Contract(A_t, t1)
+B_t=uni10.Contract(Iso,Iso_t)
+B_t=uni10.Contract(B_t, t0)
+A_t=uni10.Contract(A_t, B_t)
+A_t=uni10.Contract(A_t, U)
+A_t=uni10.Contract(A_t, Up)
+A_t=uni10.Contract(A_t, T1)
+Result=uni10.Contract(A_t, T0)
+
+svd=linalg.svd(Y.GetBlock(), full_matrices=False, lapack_driver='gesvd')
+temporary_matrix=np.matmul(svd[0], svd[2])

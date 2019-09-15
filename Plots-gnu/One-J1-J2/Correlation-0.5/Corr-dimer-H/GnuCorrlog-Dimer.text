@@ -1,0 +1,19 @@
+#set terminal postscript eps enhanced color font 'Helvetica,14' lw 3
+set terminal postscript eps size 5.3,5.3 enhanced color font 'Helvetica,20' lw 3
+#test
+set xtics font "Times-Roman, 30"
+set ytics font "Times-Roman, 30"
+set xlabel "log(r)"   font ",30" textcolor rgb "black"
+set ylabel 'log(C(r))'  font ",30"  textcolor rgb "black"
+set key b l 
+set key font ",30"
+set xrange [log(2)/log(10):log(38)/log(10)]
+set output "Corrlog-Dimer.eps"
+s(x)=(a*x)+b
+fit  [log(2)/log(10):log(5)/log(10)] s(x) "CorrelationHH7.txt" u ((log(abs($1)))*(1/log(10))):((log(abs($2)))*(1/log(10)))    via a,b 
+
+p    "CorrelationHH4.txt"  u ((log(abs($1)))*(1/log(10))):((log(abs($2)))*(1/log(10))) t 'D=4, Dimer-Dimer'   pointtype 7  ps 3, "CorrelationHH6.txt"  u ((log(abs($1)))*(1/log(10))):((log(abs($2)))*(1/log(10))) t 'D=6, Dimer-Dimer'   pointtype 8  ps 3, "CorrelationHH7.txt"  u ((log(abs($1)))*(1/log(10))):((log(abs($2)))*(1/log(10))) t 'D=7, Dimer-Dimer'   pointtype 8  ps 3, s(x) notitle with lines
+
+
+
+

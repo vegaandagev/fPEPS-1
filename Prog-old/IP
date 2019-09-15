@@ -1,0 +1,24 @@
+eno1      Link encap:Ethernet  HWaddr 90:b1:1c:5c:20:90  
+          inet addr:130.166.120.220  Bcast:130.166.120.255  Mask:255.255.255.0
+          inet6 addr: fe80::73f7:bdf4:f957:2018/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:1751856 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:539576 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:774926202 (774.9 MB)  TX bytes:125744744 (125.7 MB)
+          Interrupt:20 Memory:f7c00000-f7c20000 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:22369 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:22369 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:4019013 (4.0 MB)  TX bytes:4019013 (4.0 MB)
+
+
+
+Intel:= 3x4j-vf779v9d
+Python Serial number : CTGC-JPV5KBCX
+CTGC-JPV5KBCX

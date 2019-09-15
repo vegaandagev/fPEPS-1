@@ -1,0 +1,6 @@
+ls -lt
+squeue -u rezah
+sbatch  reza_example.job
+squeue -u rezah
+scancel 217828
+slurmtop

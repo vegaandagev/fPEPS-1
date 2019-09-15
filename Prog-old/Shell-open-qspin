@@ -1,0 +1,15 @@
+#!/bin/bash
+
+tab="--tab"
+
+foo=""
+
+for i in 1 2 3 4 5 6 7 8 9 10; do
+      foo+=($tab -e "ssh rezahagh@qspin")         
+done
+
+gnome-terminal  "${foo[@]}" 
+
+
+
+exit 0

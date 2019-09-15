@@ -1,0 +1,23 @@
+#set terminal postscript eps enhanced color font 'Helvetica,14' lw 3
+set terminal postscript eps size 5.3,5.3 enhanced color font 'Helvetica,20' lw 3
+#test
+set xtics font "Times-Roman, 30"
+set ytics font "Times-Roman, 30"
+set xlabel "r"   font ",30" textcolor rgb "black"
+set ylabel 'C(r)'  font ",30"  textcolor rgb "black"
+set key b l 
+set key font ",30"
+
+
+
+set output "Corrlog.eps"
+
+M(x)=(c1*(x**(-1)))+d1
+
+fit  M(x) "fit.txt"  via c1,d1 
+
+p [0:10]   "fit.txt"    pointtype 7  ps 3, M(x)
+
+
+
+

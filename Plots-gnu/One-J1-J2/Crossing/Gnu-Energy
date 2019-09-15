@@ -1,0 +1,34 @@
+#set terminal postscript eps enhanced color font 'Helvetica,14' lw 3
+set terminal postscript eps size 5.3,5.3 enhanced color font 'Helvetica,20' lw 3
+#test
+set xtics font "Times-Roman, 30"
+set ytics font "Times-Roman, 30"
+set xlabel "J_{2}"   font ",35" textcolor rgb "black"
+set ylabel " E"  font ",35"  textcolor rgb "black"
+#set log y
+set xtics (0.53,0.54,0.55,0.56,0.57)
+set ytics (-1.4606, -1.4338,-1.4438,-1.42)
+set key b c  
+set key font ",30"
+set key box 3
+set key spacing 6
+
+G(x)=a+b*(x**(1))
+fit   G(x) "ipeps.txt" u ($1):($2)    via a,b
+
+#M(x)=a1+b1*(x**(1))+c1*(x**(2))
+#fit  M(x) "DMRG.txt" u ($1):($2)    via a1,b1,c1
+
+set output "HeisenbergJ2-5.eps"
+p "ipeps.txt" u ($1):($2) t "Neel" with linespoints lt 2 lw 1 pt 2 ps 6, "ipeps.txt" u ($1):($3) t "Stripe" with linespoints  lt 4 lw 1 pt 2 ps 6
+
+
+
+#lc - linecolor
+#lt - linetype
+#lw - linewidth
+#pt - pointtype
+#ps - pointsize
+#w  - with
+#lp - linespoints
+#ls - linestyle

@@ -1,0 +1,22 @@
+0
+J=0  Energy=-2448.60078718828 m=160
+1
+J=0  Energy=-2.21672872818666e+25 m=160
+2
+J=0  Energy=-10.9426314764924 m=160
+3
+J=0  Energy=-3.34877494389838e+118 m=160
+4
+0
+J=2  Energy=-51915133.8312034 m=160
+1
+J=2  Energy=3 m=130
+2
+J=2  Energy=3 m=20
+Magnetization=-nan   DerivativeMagnetization=nan   SymmetryX=-nan
+
+warning: svd(): decomposition failed
+
+error: Mat::operator(): index out of bounds
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::operator(): index out of bounds

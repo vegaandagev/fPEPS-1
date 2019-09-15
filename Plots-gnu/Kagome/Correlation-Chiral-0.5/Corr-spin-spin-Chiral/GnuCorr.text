@@ -1,0 +1,16 @@
+set terminal postscript eps size 5.0,5.0 enhanced color font 'Helvetica,20' lw 3
+set xtics font "Times-Roman, 40"
+set ytics font "Times-Roman, 40"
+set xlabel "r"   font ",40" textcolor rgb "black"
+set ylabel 'C(r)'  font ",40"  textcolor rgb "black"
+set key t r 
+set key font ",30"
+set output "corr.eps"
+
+p  [1.5:10] [-0.085:0.085]  "CorrelationH4.txt"   t 'spin-spin:D=4'  with points  pointtype 2 lw 3  ps 4.0 lc rgb "#8B008B",  "CorrelationH5.txt"   t 'spin-spin:D=5'  with points  pointtype 2 lw 3  ps 4.0 lc rgb "#8B0000", "CorrelationH6.txt"   t 'spin-spin:D=6'  with points  pointtype 2 lw 3  ps 4.0 lc rgb "magenta",  "CorrelationH7.txt"  t 'spin-spin:D=7'  with points  pointtype 2 lw 3  ps 4.0 lc rgb "magenta","CorrelationVV4.txt" t 'dimer-dimer:D=4'  with points  pointtype 2 lw 3  ps 4.0 lc rgb "magenta","CorrelationVV5.txt" t 'dimer-dimer:D=5'  with points  pointtype 2 lw 3  ps 4.0 lc rgb "magenta", "CorrelationVV6.txt" t 'dimer-dimer:D=6'  with points  pointtype 2 lw 3  ps 4.0 lc rgb "magenta", "CorrelationVV7.txt" t 'dimer-dimer:D=7'  with points  pointtype 2 lw 3  ps 4.0 lc rgb "magenta", 0 with line  linetype 5
+
+
+
+
+
+#"CorrelationV.txt"   t 'V-{/Symbol c}=60'  pointtype 8  ps 3

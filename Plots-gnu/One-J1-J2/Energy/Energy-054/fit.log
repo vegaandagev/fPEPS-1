@@ -1,0 +1,2599 @@
+
+
+*******************************************************************************
+Sat Nov  4 10:56:17 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.660000]
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: G(x)
+	G(x)=a+b*(x**(2))+c*(x**(4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 3.2598202428e+01   0.00e+00  5.78e-01    1.000000e+00   1.000000e+00   1.000000e+00
+   5 7.8861842792e-07  -1.20e-01  5.78e-06   -1.506587e+00   1.103444e-01   8.849232e-01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 7.88618e-07
+rel. change during last iteration : -1.20192e-06
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00062794
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.94309e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1.50659         +/- 0.001257     (0.08345%)
+b               = 0.110344         +/- 0.0489       (44.32%)
+c               = 0.884923         +/- 0.3665       (41.42%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.955  1.000 
+c               0.904 -0.984  1.000 
+
+
+*******************************************************************************
+Sat Nov  4 10:56:33 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.660000]
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: G(x)
+	G(x)=a+b*(x**(2))+c*(x**(4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 7.8861842792e-07   0.00e+00  8.70e-01   -1.506587e+00   1.103444e-01   8.849232e-01
+   1 7.8861842792e-07  -1.06e-08  8.70e-02   -1.506587e+00   1.103444e-01   8.849232e-01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 7.88618e-07
+rel. change during last iteration : -1.06467e-13
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00062794
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.94309e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1.50659         +/- 0.001257     (0.08345%)
+b               = 0.110344         +/- 0.0489       (44.32%)
+c               = 0.884923         +/- 0.3665       (41.42%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.955  1.000 
+c               0.904 -0.984  1.000 
+
+
+*******************************************************************************
+Sat Nov  4 10:56:33 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.167000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: M(x)
+	M(x)=a1+b1*(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1           
+   0 1.4132189712e+01   0.00e+00  7.16e-01    1.000000e+00   1.000000e+00
+   7 0.0000000000e+00  -inf       7.16e-08   -1.515320e+00   7.647059e-02
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -4.93038e-32
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a1              = -1.51532       
+b1              = 0.0764706      
+
+
+*******************************************************************************
+Sat Nov  4 10:56:33 2017
+
+
+FIT:    data read from "DMRG.txt" u ($1):($2)
+        format = x:z
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: P(x)
+	P(x)=a1+b1*(x**(2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1           
+   0 1.0632864530e-02   0.00e+00  1.07e+00   -1.515320e+00   7.647059e-02
+   7 7.3733217403e-06  -4.26e-09  1.07e-06   -1.516141e+00  -1.375119e+00
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 7.37332e-06
+rel. change during last iteration : -4.26198e-14
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00271539
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.37332e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = -1.51614         +/- 0.003197     (0.2109%)
+b1              = -1.37512         +/- 0.07893      (5.74%)
+
+correlation matrix of the fit parameters:
+                a1     b1     
+a1              1.000 
+b1             -0.872  1.000 
+
+
+*******************************************************************************
+Sat Nov  4 10:56:37 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.660000]
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: G(x)
+	G(x)=a+b*(x**(2))+c*(x**(4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 3.2598202428e+01   0.00e+00  5.78e-01    1.000000e+00   1.000000e+00   1.000000e+00
+   5 7.8861842792e-07  -1.20e-01  5.78e-06   -1.506587e+00   1.103444e-01   8.849232e-01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 7.88618e-07
+rel. change during last iteration : -1.20192e-06
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00062794
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.94309e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1.50659         +/- 0.001257     (0.08345%)
+b               = 0.110344         +/- 0.0489       (44.32%)
+c               = 0.884923         +/- 0.3665       (41.42%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.955  1.000 
+c               0.904 -0.984  1.000 
+
+
+*******************************************************************************
+Sat Nov  4 10:56:37 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.167000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: M(x)
+	M(x)=a1+b1*(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1           
+   0 1.4132189712e+01   0.00e+00  7.16e-01    1.000000e+00   1.000000e+00
+   7 0.0000000000e+00  -inf       7.16e-08   -1.515320e+00   7.647059e-02
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -4.93038e-32
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a1              = -1.51532       
+b1              = 0.0764706      
+
+
+*******************************************************************************
+Sat Nov  4 10:56:37 2017
+
+
+FIT:    data read from "DMRG.txt" u ($1):($2)
+        format = x:z
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: P(x)
+	P(x)=a1+b1*(x**(2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1           
+   0 1.0632864530e-02   0.00e+00  1.07e+00   -1.515320e+00   7.647059e-02
+   7 7.3733217403e-06  -4.26e-09  1.07e-06   -1.516141e+00  -1.375119e+00
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 7.37332e-06
+rel. change during last iteration : -4.26198e-14
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00271539
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.37332e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = -1.51614         +/- 0.003197     (0.2109%)
+b1              = -1.37512         +/- 0.07893      (5.74%)
+
+correlation matrix of the fit parameters:
+                a1     b1     
+a1              1.000 
+b1             -0.872  1.000 
+
+
+*******************************************************************************
+Sat Nov  4 10:59:03 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.660000]
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: G(x)
+	G(x)=a+b*(x**(2))+c*(x**(4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 7.8861842792e-07   0.00e+00  8.70e-01   -1.506587e+00   1.103444e-01   8.849232e-01
+   1 7.8861842792e-07  -1.06e-08  8.70e-02   -1.506587e+00   1.103444e-01   8.849232e-01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 7.88618e-07
+rel. change during last iteration : -1.06467e-13
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00062794
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.94309e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1.50659         +/- 0.001257     (0.08345%)
+b               = 0.110344         +/- 0.0489       (44.32%)
+c               = 0.884923         +/- 0.3665       (41.42%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.955  1.000 
+c               0.904 -0.984  1.000 
+
+
+*******************************************************************************
+Sat Nov  4 10:59:03 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.167000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: M(x)
+	M(x)=a1+b1*(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1           
+   0 1.0219108124e-01   0.00e+00  1.08e+00   -1.516141e+00  -1.375119e+00
+   7 0.0000000000e+00  -inf       1.08e-07   -1.515320e+00   7.647059e-02
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -9.86076e-32
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a1              = -1.51532       
+b1              = 0.0764706      
+
+
+*******************************************************************************
+Sat Nov  4 10:59:03 2017
+
+
+FIT:    data read from "DMRG.txt" u ($1):($2)
+        format = x:z
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: P(x)
+	P(x)=a1+b1*(x**(2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1           
+   0 1.8611866620e-03   0.00e+00  1.07e+00   -1.515320e+00   7.647059e-02
+   6 1.7296286678e-05  -3.78e-01  1.07e-06   -1.491131e+00  -9.814513e-01
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.72963e-05
+rel. change during last iteration : -3.77772e-06
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00415888
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.72963e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = -1.49113         +/- 0.004896     (0.3284%)
+b1              = -0.981451        +/- 0.1209       (12.32%)
+
+correlation matrix of the fit parameters:
+                a1     b1     
+a1              1.000 
+b1             -0.872  1.000 
+
+
+*******************************************************************************
+Sat Nov  4 10:59:07 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.660000]
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: G(x)
+	G(x)=a+b*(x**(2))+c*(x**(4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 3.2598202428e+01   0.00e+00  5.78e-01    1.000000e+00   1.000000e+00   1.000000e+00
+   5 7.8861842792e-07  -1.20e-01  5.78e-06   -1.506587e+00   1.103444e-01   8.849232e-01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 7.88618e-07
+rel. change during last iteration : -1.20192e-06
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00062794
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.94309e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1.50659         +/- 0.001257     (0.08345%)
+b               = 0.110344         +/- 0.0489       (44.32%)
+c               = 0.884923         +/- 0.3665       (41.42%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.955  1.000 
+c               0.904 -0.984  1.000 
+
+
+*******************************************************************************
+Sat Nov  4 10:59:07 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.167000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: M(x)
+	M(x)=a1+b1*(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1           
+   0 1.4132189712e+01   0.00e+00  7.16e-01    1.000000e+00   1.000000e+00
+   7 0.0000000000e+00  -inf       7.16e-08   -1.515320e+00   7.647059e-02
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -4.93038e-32
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a1              = -1.51532       
+b1              = 0.0764706      
+
+
+*******************************************************************************
+Sat Nov  4 10:59:07 2017
+
+
+FIT:    data read from "DMRG.txt" u ($1):($2)
+        format = x:z
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: P(x)
+	P(x)=a1+b1*(x**(2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1           
+   0 1.8611866620e-03   0.00e+00  1.07e+00   -1.515320e+00   7.647059e-02
+   6 1.7296286678e-05  -3.78e-01  1.07e-06   -1.491131e+00  -9.814513e-01
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.72963e-05
+rel. change during last iteration : -3.77772e-06
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00415888
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.72963e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = -1.49113         +/- 0.004896     (0.3284%)
+b1              = -0.981451        +/- 0.1209       (12.32%)
+
+correlation matrix of the fit parameters:
+                a1     b1     
+a1              1.000 
+b1             -0.872  1.000 
+
+
+*******************************************************************************
+Sat Nov  4 11:00:18 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.660000]
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: G(x)
+	G(x)=a+b*(x**(2))+c*(x**(4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 3.2598202428e+01   0.00e+00  5.78e-01    1.000000e+00   1.000000e+00   1.000000e+00
+   5 7.8861842792e-07  -1.20e-01  5.78e-06   -1.506587e+00   1.103444e-01   8.849232e-01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 7.88618e-07
+rel. change during last iteration : -1.20192e-06
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00062794
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.94309e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1.50659         +/- 0.001257     (0.08345%)
+b               = 0.110344         +/- 0.0489       (44.32%)
+c               = 0.884923         +/- 0.3665       (41.42%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.955  1.000 
+c               0.904 -0.984  1.000 
+
+
+*******************************************************************************
+Sat Nov  4 11:00:18 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.167000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: M(x)
+	M(x)=a1+b1*(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1           
+   0 1.4132189712e+01   0.00e+00  7.16e-01    1.000000e+00   1.000000e+00
+   7 0.0000000000e+00  -inf       7.16e-08   -1.515320e+00   7.647059e-02
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -4.93038e-32
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a1              = -1.51532       
+b1              = 0.0764706      
+
+
+*******************************************************************************
+Sat Nov  4 11:00:18 2017
+
+
+FIT:    data read from "DMRG.txt" u ($1):($2)
+        format = x:z
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: P(x)
+	P(x)=a1+b1*(x**(2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1           
+   0 1.8611866620e-03   0.00e+00  1.07e+00   -1.515320e+00   7.647059e-02
+   6 1.7296286678e-05  -3.78e-01  1.07e-06   -1.491131e+00  -9.814513e-01
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.72963e-05
+rel. change during last iteration : -3.77772e-06
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00415888
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.72963e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = -1.49113         +/- 0.004896     (0.3284%)
+b1              = -0.981451        +/- 0.1209       (12.32%)
+
+correlation matrix of the fit parameters:
+                a1     b1     
+a1              1.000 
+b1             -0.872  1.000 
+
+
+*******************************************************************************
+Sat Nov  4 11:00:32 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.660000]
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: G(x)
+	G(x)=a+b*(x**(2))+c*(x**(4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 3.2598202428e+01   0.00e+00  5.78e-01    1.000000e+00   1.000000e+00   1.000000e+00
+   5 7.8861842792e-07  -1.20e-01  5.78e-06   -1.506587e+00   1.103444e-01   8.849232e-01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 7.88618e-07
+rel. change during last iteration : -1.20192e-06
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00062794
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.94309e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1.50659         +/- 0.001257     (0.08345%)
+b               = 0.110344         +/- 0.0489       (44.32%)
+c               = 0.884923         +/- 0.3665       (41.42%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.955  1.000 
+c               0.904 -0.984  1.000 
+
+
+*******************************************************************************
+Sat Nov  4 11:00:32 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.167000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: M(x)
+	M(x)=a1+b1*(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1           
+   0 1.4132189712e+01   0.00e+00  7.16e-01    1.000000e+00   1.000000e+00
+   7 0.0000000000e+00  -inf       7.16e-08   -1.515320e+00   7.647059e-02
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -4.93038e-32
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a1              = -1.51532       
+b1              = 0.0764706      
+
+
+*******************************************************************************
+Sat Nov  4 11:00:32 2017
+
+
+FIT:    data read from "DMRG.txt" u ($1):($2)
+        format = x:z
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: P(x)
+	P(x)=a1+b1*(x**(1))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1           
+   0 3.4295818362e-03   0.00e+00  1.07e+00   -1.515320e+00   7.647059e-02
+   6 4.7297610847e-05  -5.58e-05  1.07e-06   -1.458945e+00  -3.701489e-01
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 4.72976e-05
+rel. change during last iteration : -5.58267e-10
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00687733
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.72976e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = -1.45895         +/- 0.01436      (0.9839%)
+b1              = -0.370149        +/- 0.07641      (20.64%)
+
+correlation matrix of the fit parameters:
+                a1     b1     
+a1              1.000 
+b1             -0.961  1.000 
+
+
+*******************************************************************************
+Sat Nov  4 11:00:35 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.660000]
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: G(x)
+	G(x)=a+b*(x**(2))+c*(x**(4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 7.8861842792e-07   0.00e+00  8.70e-01   -1.506587e+00   1.103444e-01   8.849232e-01
+   1 7.8861842792e-07  -1.06e-08  8.70e-02   -1.506587e+00   1.103444e-01   8.849232e-01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 7.88618e-07
+rel. change during last iteration : -1.06467e-13
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00062794
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.94309e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1.50659         +/- 0.001257     (0.08345%)
+b               = 0.110344         +/- 0.0489       (44.32%)
+c               = 0.884923         +/- 0.3665       (41.42%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.955  1.000 
+c               0.904 -0.984  1.000 
+
+
+*******************************************************************************
+Sat Nov  4 11:00:35 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.167000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: M(x)
+	M(x)=a1+b1*(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1           
+   0 3.7994206314e-04   0.00e+00  1.03e+00   -1.458945e+00  -3.701489e-01
+   7 0.0000000000e+00  -inf       1.03e-07   -1.515320e+00   7.647059e-02
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -1.23571e-26
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a1              = -1.51532       
+b1              = 0.0764706      
+
+
+*******************************************************************************
+Sat Nov  4 11:00:35 2017
+
+
+FIT:    data read from "DMRG.txt" u ($1):($2)
+        format = x:z
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: P(x)
+	P(x)=a1+b1*(x**(1))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1           
+   0 3.4295818362e-03   0.00e+00  1.07e+00   -1.515320e+00   7.647059e-02
+   6 4.7297610847e-05  -5.58e-05  1.07e-06   -1.458945e+00  -3.701489e-01
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 4.72976e-05
+rel. change during last iteration : -5.58216e-10
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00687733
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.72976e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = -1.45895         +/- 0.01436      (0.9839%)
+b1              = -0.370149        +/- 0.07641      (20.64%)
+
+correlation matrix of the fit parameters:
+                a1     b1     
+a1              1.000 
+b1             -0.961  1.000 
+
+
+*******************************************************************************
+Sat Nov  4 11:00:39 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.660000]
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: G(x)
+	G(x)=a+b*(x**(2))+c*(x**(4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 3.2598202428e+01   0.00e+00  5.78e-01    1.000000e+00   1.000000e+00   1.000000e+00
+   5 7.8861842792e-07  -1.20e-01  5.78e-06   -1.506587e+00   1.103444e-01   8.849232e-01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 7.88618e-07
+rel. change during last iteration : -1.20192e-06
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00062794
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.94309e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1.50659         +/- 0.001257     (0.08345%)
+b               = 0.110344         +/- 0.0489       (44.32%)
+c               = 0.884923         +/- 0.3665       (41.42%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.955  1.000 
+c               0.904 -0.984  1.000 
+
+
+*******************************************************************************
+Sat Nov  4 11:00:39 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.167000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: M(x)
+	M(x)=a1+b1*(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1           
+   0 1.4132189712e+01   0.00e+00  7.16e-01    1.000000e+00   1.000000e+00
+   7 0.0000000000e+00  -inf       7.16e-08   -1.515320e+00   7.647059e-02
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -4.93038e-32
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a1              = -1.51532       
+b1              = 0.0764706      
+
+
+*******************************************************************************
+Sat Nov  4 11:00:39 2017
+
+
+FIT:    data read from "DMRG.txt" u ($1):($2)
+        format = x:z
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: P(x)
+	P(x)=a1+b1*(x**(1))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1           
+   0 3.4295818362e-03   0.00e+00  1.07e+00   -1.515320e+00   7.647059e-02
+   6 4.7297610847e-05  -5.58e-05  1.07e-06   -1.458945e+00  -3.701489e-01
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 4.72976e-05
+rel. change during last iteration : -5.58267e-10
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00687733
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.72976e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = -1.45895         +/- 0.01436      (0.9839%)
+b1              = -0.370149        +/- 0.07641      (20.64%)
+
+correlation matrix of the fit parameters:
+                a1     b1     
+a1              1.000 
+b1             -0.961  1.000 
+
+
+*******************************************************************************
+Sat Nov  4 11:01:27 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.660000]
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: G(x)
+	G(x)=a+b*(x**(2))+c*(x**(4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 7.8861842792e-07   0.00e+00  8.70e-01   -1.506587e+00   1.103444e-01   8.849232e-01
+   1 7.8861842792e-07  -1.06e-08  8.70e-02   -1.506587e+00   1.103444e-01   8.849232e-01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 7.88618e-07
+rel. change during last iteration : -1.06467e-13
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00062794
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.94309e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1.50659         +/- 0.001257     (0.08345%)
+b               = 0.110344         +/- 0.0489       (44.32%)
+c               = 0.884923         +/- 0.3665       (41.42%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.955  1.000 
+c               0.904 -0.984  1.000 
+
+
+*******************************************************************************
+Sat Nov  4 11:01:27 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.167000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: M(x)
+	M(x)=a1+b1*(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1           
+   0 3.7994206314e-04   0.00e+00  1.03e+00   -1.458945e+00  -3.701489e-01
+   7 0.0000000000e+00  -inf       1.03e-07   -1.515320e+00   7.647059e-02
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -1.23571e-26
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a1              = -1.51532       
+b1              = 0.0764706      
+
+
+*******************************************************************************
+Sat Nov  4 11:01:27 2017
+
+
+FIT:    data read from "DMRG.txt" u ($1):($2)
+        format = x:z
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: P(x)
+	P(x)=a1+b1*(x**(1))+c1*(x**(2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1            c1           
+   0 1.6285801384e-02   0.00e+00  8.75e-01   -1.515320e+00   7.647059e-02   1.000000e+00
+   9 0.0000000000e+00  -inf       8.75e-06   -1.541665e+00   5.710182e-01  -2.470555e+00
+
+After 9 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -9.86076e-32
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a1              = -1.54166       
+b1              = 0.571018       
+c1              = -2.47056       
+
+
+*******************************************************************************
+Sat Nov  4 11:01:31 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.660000]
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: G(x)
+	G(x)=a+b*(x**(2))+c*(x**(4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 3.2598202428e+01   0.00e+00  5.78e-01    1.000000e+00   1.000000e+00   1.000000e+00
+   5 7.8861842792e-07  -1.20e-01  5.78e-06   -1.506587e+00   1.103444e-01   8.849232e-01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 7.88618e-07
+rel. change during last iteration : -1.20192e-06
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00062794
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.94309e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1.50659         +/- 0.001257     (0.08345%)
+b               = 0.110344         +/- 0.0489       (44.32%)
+c               = 0.884923         +/- 0.3665       (41.42%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.955  1.000 
+c               0.904 -0.984  1.000 
+
+
+*******************************************************************************
+Sat Nov  4 11:01:31 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.167000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: M(x)
+	M(x)=a1+b1*(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1           
+   0 1.4132189712e+01   0.00e+00  7.16e-01    1.000000e+00   1.000000e+00
+   7 0.0000000000e+00  -inf       7.16e-08   -1.515320e+00   7.647059e-02
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -4.93038e-32
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a1              = -1.51532       
+b1              = 0.0764706      
+
+
+*******************************************************************************
+Sat Nov  4 11:01:31 2017
+
+
+FIT:    data read from "DMRG.txt" u ($1):($2)
+        format = x:z
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: P(x)
+	P(x)=a1+b1*(x**(1))+c1*(x**(2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1            c1           
+   0 1.6285801384e-02   0.00e+00  8.75e-01   -1.515320e+00   7.647059e-02   1.000000e+00
+   9 9.8607613153e-32   0.00e+00  8.75e-05   -1.541665e+00   5.710182e-01  -2.470555e+00
+
+After 9 iterations the fit converged.
+final sum of squares of residuals : 9.86076e-32
+abs. change during last iteration : 0
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a1              = -1.54166       
+b1              = 0.571018       
+c1              = -2.47056       
+
+
+*******************************************************************************
+Sat Nov  4 11:01:59 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.660000]
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: G(x)
+	G(x)=a+b*(x**(2))+c*(x**(4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 7.8861842792e-07   0.00e+00  8.70e-01   -1.506587e+00   1.103444e-01   8.849232e-01
+   1 7.8861842792e-07  -1.06e-08  8.70e-02   -1.506587e+00   1.103444e-01   8.849232e-01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 7.88618e-07
+rel. change during last iteration : -1.06467e-13
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00062794
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.94309e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1.50659         +/- 0.001257     (0.08345%)
+b               = 0.110344         +/- 0.0489       (44.32%)
+c               = 0.884923         +/- 0.3665       (41.42%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.955  1.000 
+c               0.904 -0.984  1.000 
+
+
+*******************************************************************************
+Sat Nov  4 11:01:59 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.167000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: M(x)
+	M(x)=a1+b1*(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1           
+   0 5.1016547449e-03   0.00e+00  1.09e+00   -1.541665e+00   5.710182e-01
+   8 0.0000000000e+00  -inf       1.09e-08   -1.515320e+00   7.647059e-02
+
+After 8 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -9.86076e-32
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a1              = -1.51532       
+b1              = 0.0764706      
+
+
+*******************************************************************************
+Sat Nov  4 11:02:00 2017
+
+
+FIT:    data read from "DMRG.txt" u ($1):($2)
+        format = x:z
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: P(x)
+	P(x)=a1+b1*(x**(2))+c1*(x**(4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1            c1           
+   0 1.1316039348e-03   0.00e+00  8.75e-01   -1.515320e+00   7.647059e-02  -2.470555e+00
+  10 4.9303806576e-32   0.00e+00  8.75e-11   -1.506317e+00   3.108640e-02  -1.253026e+01
+
+After 10 iterations the fit converged.
+final sum of squares of residuals : 4.93038e-32
+abs. change during last iteration : 0
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a1              = -1.50632       
+b1              = 0.0310864      
+c1              = -12.5303       
+
+
+*******************************************************************************
+Sat Nov  4 11:02:02 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.660000]
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: G(x)
+	G(x)=a+b*(x**(2))+c*(x**(4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 3.2598202428e+01   0.00e+00  5.78e-01    1.000000e+00   1.000000e+00   1.000000e+00
+   5 7.8861842792e-07  -1.20e-01  5.78e-06   -1.506587e+00   1.103444e-01   8.849232e-01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 7.88618e-07
+rel. change during last iteration : -1.20192e-06
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00062794
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.94309e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1.50659         +/- 0.001257     (0.08345%)
+b               = 0.110344         +/- 0.0489       (44.32%)
+c               = 0.884923         +/- 0.3665       (41.42%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.955  1.000 
+c               0.904 -0.984  1.000 
+
+
+*******************************************************************************
+Sat Nov  4 11:02:02 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.167000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: M(x)
+	M(x)=a1+b1*(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1           
+   0 1.4132189712e+01   0.00e+00  7.16e-01    1.000000e+00   1.000000e+00
+   7 0.0000000000e+00  -inf       7.16e-08   -1.515320e+00   7.647059e-02
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -4.93038e-32
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a1              = -1.51532       
+b1              = 0.0764706      
+
+
+*******************************************************************************
+Sat Nov  4 11:02:02 2017
+
+
+FIT:    data read from "DMRG.txt" u ($1):($2)
+        format = x:z
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: P(x)
+	P(x)=a1+b1*(x**(2))+c1*(x**(4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1            c1           
+   0 2.2117268506e-03   0.00e+00  8.75e-01   -1.515320e+00   7.647059e-02   1.000000e+00
+  10 4.9303806576e-32   0.00e+00  8.75e-11   -1.506317e+00   3.108640e-02  -1.253026e+01
+
+After 10 iterations the fit converged.
+final sum of squares of residuals : 4.93038e-32
+abs. change during last iteration : 0
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a1              = -1.50632       
+b1              = 0.0310864      
+c1              = -12.5303       
+
+
+*******************************************************************************
+Sat Nov  4 11:06:23 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.660000]
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: G(x)
+	G(x)=a+b*(x**(1))+c*(x**(2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 2.2597457729e-02   0.00e+00  8.71e-01   -1.506587e+00   1.103444e-01   8.849232e-01
+   6 1.2726808473e-06  -1.09e-01  8.71e-07   -1.500508e+00  -8.016928e-02   3.929729e-01
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.27268e-06
+rel. change during last iteration : -1.09126e-06
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000797709
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.3634e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1.50051         +/- 0.00527      (0.3512%)
+b               = -0.0801693       +/- 0.04748      (59.22%)
+c               = 0.392973         +/- 0.09924      (25.25%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.992  1.000 
+c               0.973 -0.994  1.000 
+
+
+*******************************************************************************
+Sat Nov  4 11:06:23 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.167000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: M(x)
+	M(x)=a1+b1*(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1           
+   0 8.4438582538e-06   0.00e+00  1.07e+00   -1.506317e+00   3.108640e-02
+   9 0.0000000000e+00  -inf       1.07e-09   -1.515320e+00   7.647059e-02
+
+After 9 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -9.86076e-32
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a1              = -1.51532       
+b1              = 0.0764706      
+
+
+*******************************************************************************
+Sat Nov  4 11:06:23 2017
+
+
+FIT:    data read from "DMRG.txt" u ($1):($2)
+        format = x:z
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: P(x)
+	P(x)=a1+b1*(x**(2))+c1*(x**(4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1            c1           
+   0 1.6677774868e-04   0.00e+00  8.75e-01   -1.515320e+00   7.647059e-02  -1.253026e+01
+  11 0.0000000000e+00  -inf       8.75e-05   -1.506317e+00   3.108640e-02  -1.253026e+01
+
+After 11 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -4.93038e-32
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a1              = -1.50632       
+b1              = 0.0310864      
+c1              = -12.5303       
+
+
+*******************************************************************************
+Sat Nov  4 11:06:26 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.660000]
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: G(x)
+	G(x)=a+b*(x**(1))+c*(x**(2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 3.8333152730e+01   0.00e+00  5.93e-01    1.000000e+00   1.000000e+00   1.000000e+00
+   6 1.2726808473e-06   0.00e+00  5.93e+00   -1.500508e+00  -8.016930e-02   3.929729e-01
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.27268e-06
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000797709
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.3634e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1.50051         +/- 0.00527      (0.3512%)
+b               = -0.0801693       +/- 0.04748      (59.22%)
+c               = 0.392973         +/- 0.09924      (25.25%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.992  1.000 
+c               0.973 -0.994  1.000 
+
+
+*******************************************************************************
+Sat Nov  4 11:06:26 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.167000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: M(x)
+	M(x)=a1+b1*(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1           
+   0 1.4132189712e+01   0.00e+00  7.16e-01    1.000000e+00   1.000000e+00
+   7 0.0000000000e+00  -inf       7.16e-08   -1.515320e+00   7.647059e-02
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -4.93038e-32
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a1              = -1.51532       
+b1              = 0.0764706      
+
+
+*******************************************************************************
+Sat Nov  4 11:06:26 2017
+
+
+FIT:    data read from "DMRG.txt" u ($1):($2)
+        format = x:z
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: P(x)
+	P(x)=a1+b1*(x**(2))+c1*(x**(4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1            c1           
+   0 2.2117268506e-03   0.00e+00  8.75e-01   -1.515320e+00   7.647059e-02   1.000000e+00
+  10 4.9303806576e-32   0.00e+00  8.75e-11   -1.506317e+00   3.108640e-02  -1.253026e+01
+
+After 10 iterations the fit converged.
+final sum of squares of residuals : 4.93038e-32
+abs. change during last iteration : 0
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a1              = -1.50632       
+b1              = 0.0310864      
+c1              = -12.5303       
+
+
+*******************************************************************************
+Sat Nov  4 11:06:46 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.660000]
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: G(x)
+	G(x)=a+b*(x**(2))+c*(x**(4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 4.9070338023e-04   0.00e+00  8.66e-01   -1.500508e+00  -8.016930e-02   3.929729e-01
+   6 7.8861842792e-07  -6.23e-01  8.66e-07   -1.506587e+00   1.103445e-01   8.849229e-01
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 7.88618e-07
+rel. change during last iteration : -6.23206e-06
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00062794
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.94309e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1.50659         +/- 0.001257     (0.08345%)
+b               = 0.110344         +/- 0.0489       (44.32%)
+c               = 0.884923         +/- 0.3665       (41.42%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.955  1.000 
+c               0.904 -0.984  1.000 
+
+
+*******************************************************************************
+Sat Nov  4 11:06:46 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.167000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: M(x)
+	M(x)=a1+b1*(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1           
+   0 8.4438582538e-06   0.00e+00  1.07e+00   -1.506317e+00   3.108640e-02
+   9 0.0000000000e+00  -inf       1.07e-09   -1.515320e+00   7.647059e-02
+
+After 9 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -9.86076e-32
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a1              = -1.51532       
+b1              = 0.0764706      
+
+
+*******************************************************************************
+Sat Nov  4 11:06:46 2017
+
+
+FIT:    data read from "DMRG.txt" u ($1):($2)
+        format = x:z
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: P(x)
+	P(x)=a1+b1*(x**(2))+c1*(x**(4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1            c1           
+   0 1.6677774868e-04   0.00e+00  8.75e-01   -1.515320e+00   7.647059e-02  -1.253026e+01
+  11 0.0000000000e+00  -inf       8.75e-05   -1.506317e+00   3.108640e-02  -1.253026e+01
+
+After 11 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -4.93038e-32
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a1              = -1.50632       
+b1              = 0.0310864      
+c1              = -12.5303       
+
+
+*******************************************************************************
+Sat Nov  4 11:06:53 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.660000]
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: G(x)
+	G(x)=a+b*(x**(2))+c*(x**(4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 3.2598202428e+01   0.00e+00  5.78e-01    1.000000e+00   1.000000e+00   1.000000e+00
+   5 7.8861842792e-07  -1.20e-01  5.78e-06   -1.506587e+00   1.103444e-01   8.849232e-01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 7.88618e-07
+rel. change during last iteration : -1.20192e-06
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00062794
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.94309e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1.50659         +/- 0.001257     (0.08345%)
+b               = 0.110344         +/- 0.0489       (44.32%)
+c               = 0.884923         +/- 0.3665       (41.42%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.955  1.000 
+c               0.904 -0.984  1.000 
+
+
+*******************************************************************************
+Sat Nov  4 11:06:53 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.167000]
+        #datapoints = 2
+        residuals are weighted equally (unit weight)
+
+function used for fitting: M(x)
+	M(x)=a1+b1*(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1           
+   0 1.4132189712e+01   0.00e+00  7.16e-01    1.000000e+00   1.000000e+00
+   7 0.0000000000e+00  -inf       7.16e-08   -1.515320e+00   7.647059e-02
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -4.93038e-32
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a1              = -1.51532       
+b1              = 0.0764706      
+
+
+*******************************************************************************
+Sat Nov  4 11:06:53 2017
+
+
+FIT:    data read from "DMRG.txt" u ($1):($2)
+        format = x:z
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: P(x)
+	P(x)=a1+b1*(x**(2))+c1*(x**(4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1            c1           
+   0 2.2117268506e-03   0.00e+00  8.75e-01   -1.515320e+00   7.647059e-02   1.000000e+00
+  10 4.9303806576e-32   0.00e+00  8.75e-11   -1.506317e+00   3.108640e-02  -1.253026e+01
+
+After 10 iterations the fit converged.
+final sum of squares of residuals : 4.93038e-32
+abs. change during last iteration : 0
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a1              = -1.50632       
+b1              = 0.0310864      
+c1              = -12.5303       
+
+
+*******************************************************************************
+Mon Nov  6 08:52:30 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.660000]
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: G(x)
+	G(x)=a+b*(x**(2))+c*(x**(4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 2.5042562353e+01   0.00e+00  5.79e-01    1.000000e+00   1.000000e+00   1.000000e+00
+   6 1.0327393908e-06  -1.02e-01  5.79e-07   -1.454630e+00   4.146490e-01  -1.717312e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.03274e-06
+rel. change during last iteration : -1.01955e-06
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00101624
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.03274e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1.45463         +/- 0.003131     (0.2153%)
+b               = 0.414649         +/- 0.1083       (26.12%)
+c               = -1.71731         +/- 0.7653       (44.56%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.972  1.000 
+c               0.936 -0.988  1.000 
+
+
+*******************************************************************************
+Mon Nov  6 08:52:30 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.167000]
+BREAK: No data to fit
+
+*******************************************************************************
+Mon Nov  6 08:53:00 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.660000]
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: G(x)
+	G(x)=a+b*(x**(2))+c*(x**(4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.0327393908e-06   0.00e+00  8.40e-01   -1.454630e+00   4.146490e-01  -1.717312e+00
+   1 1.0327393908e-06  -1.27e-08  8.40e-02   -1.454630e+00   4.146490e-01  -1.717312e+00
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.03274e-06
+rel. change during last iteration : -1.27128e-13
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00101624
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.03274e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1.45463         +/- 0.003131     (0.2153%)
+b               = 0.414649         +/- 0.1083       (26.12%)
+c               = -1.71731         +/- 0.7653       (44.56%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.972  1.000 
+c               0.936 -0.988  1.000 
+
+
+*******************************************************************************
+Mon Nov  6 08:53:00 2017
+
+
+FIT:    data read from "DMRG.txt" u ($1):($2)
+        format = x:z
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: P(x)
+	P(x)=a1+b1*(x**(2))+c1*(x**(4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1            c1           
+   0 1.9707616339e+01   0.00e+00  5.78e-01    1.000000e+00   1.000000e+00   1.000000e+00
+   9 4.9303806576e-32   0.00e+00  5.78e-10   -1.506317e+00   3.108640e-02  -1.253026e+01
+
+After 9 iterations the fit converged.
+final sum of squares of residuals : 4.93038e-32
+abs. change during last iteration : 0
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a1              = -1.50632       
+b1              = 0.0310864      
+c1              = -12.5303       
+
+
+*******************************************************************************
+Mon Nov  6 08:53:03 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.660000]
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: G(x)
+	G(x)=a+b*(x**(2))+c*(x**(4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 2.5042562353e+01   0.00e+00  5.79e-01    1.000000e+00   1.000000e+00   1.000000e+00
+   6 1.0327393908e-06  -1.02e-01  5.79e-07   -1.454630e+00   4.146490e-01  -1.717312e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.03274e-06
+rel. change during last iteration : -1.01955e-06
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00101624
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.03274e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1.45463         +/- 0.003131     (0.2153%)
+b               = 0.414649         +/- 0.1083       (26.12%)
+c               = -1.71731         +/- 0.7653       (44.56%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.972  1.000 
+c               0.936 -0.988  1.000 
+
+
+*******************************************************************************
+Mon Nov  6 08:53:03 2017
+
+
+FIT:    data read from "DMRG.txt" u ($1):($2)
+        format = x:z
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: P(x)
+	P(x)=a1+b1*(x**(2))+c1*(x**(4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1            c1           
+   0 1.9707616339e+01   0.00e+00  5.78e-01    1.000000e+00   1.000000e+00   1.000000e+00
+   9 4.9303806576e-32   0.00e+00  5.78e-10   -1.506317e+00   3.108640e-02  -1.253026e+01
+
+After 9 iterations the fit converged.
+final sum of squares of residuals : 4.93038e-32
+abs. change during last iteration : 0
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a1              = -1.50632       
+b1              = 0.0310864      
+c1              = -12.5303       
+
+
+*******************************************************************************
+Mon Nov  6 08:54:08 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.660000]
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: G(x)
+	G(x)=a+b*(x**(2))+c*(x**(4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.0327393908e-06   0.00e+00  8.40e-01   -1.454630e+00   4.146490e-01  -1.717312e+00
+   1 1.0327393908e-06  -1.27e-08  8.40e-02   -1.454630e+00   4.146490e-01  -1.717312e+00
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.03274e-06
+rel. change during last iteration : -1.27128e-13
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00101624
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.03274e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1.45463         +/- 0.003131     (0.2153%)
+b               = 0.414649         +/- 0.1083       (26.12%)
+c               = -1.71731         +/- 0.7653       (44.56%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.972  1.000 
+c               0.936 -0.988  1.000 
+
+
+*******************************************************************************
+Mon Nov  6 08:54:08 2017
+
+
+FIT:    data read from "DMRG.txt" u ($1):($2)
+        format = x:z
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: P(x)
+	P(x)=a1+b1*(x**(2))+c1*(x**(4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1            c1           
+   0 4.9303806576e-32   0.00e+00  8.70e-01   -1.506317e+00   3.108640e-02  -1.253026e+01
+   1 4.9303806576e-32   0.00e+00  8.70e-02   -1.506317e+00   3.108640e-02  -1.253026e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 4.93038e-32
+abs. change during last iteration : 0
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a1              = -1.50632       
+b1              = 0.0310864      
+c1              = -12.5303       
+
+
+*******************************************************************************
+Mon Nov  6 08:54:27 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.660000]
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: G(x)
+	G(x)=a+b*(x**(2))+c*(x**(4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.0327393908e-06   0.00e+00  8.40e-01   -1.454630e+00   4.146490e-01  -1.717312e+00
+   1 1.0327393908e-06   0.00e+00  8.40e+00   -1.454630e+00   4.146490e-01  -1.717312e+00
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.03274e-06
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00101624
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.03274e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1.45463         +/- 0.003131     (0.2153%)
+b               = 0.414649         +/- 0.1083       (26.12%)
+c               = -1.71731         +/- 0.7653       (44.56%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.972  1.000 
+c               0.936 -0.988  1.000 
+
+
+*******************************************************************************
+Mon Nov  6 08:54:27 2017
+
+
+FIT:    data read from "DMRG.txt" u ($1):($2)
+        format = x:z
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: P(x)
+	P(x)=a1+b1*(x**(2))+c1*(x**(4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1            c1           
+   0 4.9303806576e-32   0.00e+00  8.70e-01   -1.506317e+00   3.108640e-02  -1.253026e+01
+   1 4.9303806576e-32   0.00e+00  8.70e-02   -1.506317e+00   3.108640e-02  -1.253026e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 4.93038e-32
+abs. change during last iteration : 0
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a1              = -1.50632       
+b1              = 0.0310864      
+c1              = -12.5303       
+
+
+*******************************************************************************
+Mon Nov  6 09:04:50 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.660000]
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: G(x)
+	G(x)=a+b*(x**(2))+c*(x**(4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.0327393908e-06   0.00e+00  8.40e-01   -1.454630e+00   4.146490e-01  -1.717312e+00
+   1 1.0327393908e-06   0.00e+00  8.40e+00   -1.454630e+00   4.146490e-01  -1.717312e+00
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.03274e-06
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00101624
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.03274e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1.45463         +/- 0.003131     (0.2153%)
+b               = 0.414649         +/- 0.1083       (26.12%)
+c               = -1.71731         +/- 0.7653       (44.56%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.972  1.000 
+c               0.936 -0.988  1.000 
+
+
+*******************************************************************************
+Mon Nov  6 09:04:50 2017
+
+
+FIT:    data read from "DMRG.txt" u ($1):($2)
+        format = x:z
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: P(x)
+	P(x)=a1+b1*(x**(2))+c1*(x**(4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1            c1           
+   0 4.9303806576e-32   0.00e+00  8.70e-01   -1.506317e+00   3.108640e-02  -1.253026e+01
+   1 4.9303806576e-32   0.00e+00  8.70e-02   -1.506317e+00   3.108640e-02  -1.253026e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 4.93038e-32
+abs. change during last iteration : 0
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a1              = -1.50632       
+b1              = 0.0310864      
+c1              = -12.5303       
+
+
+*******************************************************************************
+Mon Nov  6 09:06:42 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.660000]
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: G(x)
+	G(x)=a+b*(x**(2))+c*(x**(4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.0327393908e-06   0.00e+00  8.40e-01   -1.454630e+00   4.146490e-01  -1.717312e+00
+   1 1.0327393908e-06   0.00e+00  8.40e+00   -1.454630e+00   4.146490e-01  -1.717312e+00
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.03274e-06
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00101624
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.03274e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1.45463         +/- 0.003131     (0.2153%)
+b               = 0.414649         +/- 0.1083       (26.12%)
+c               = -1.71731         +/- 0.7653       (44.56%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.972  1.000 
+c               0.936 -0.988  1.000 
+
+
+*******************************************************************************
+Mon Nov  6 09:06:42 2017
+
+
+FIT:    data read from "DMRG.txt" u ($1):($2)
+        format = x:z
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: P(x)
+	P(x)=a1+b1*(x**(2))+c1*(x**(4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1            c1           
+   0 4.9303806576e-32   0.00e+00  8.70e-01   -1.506317e+00   3.108640e-02  -1.253026e+01
+   1 4.9303806576e-32   0.00e+00  8.70e-02   -1.506317e+00   3.108640e-02  -1.253026e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 4.93038e-32
+abs. change during last iteration : 0
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a1              = -1.50632       
+b1              = 0.0310864      
+c1              = -12.5303       
+
+
+*******************************************************************************
+Mon Nov  6 09:06:44 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.660000]
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: G(x)
+	G(x)=a+b*(x**(2))+c*(x**(4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.0327393908e-06   0.00e+00  8.40e-01   -1.454630e+00   4.146490e-01  -1.717312e+00
+   1 1.0327393908e-06   0.00e+00  8.40e+00   -1.454630e+00   4.146490e-01  -1.717312e+00
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.03274e-06
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00101624
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.03274e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1.45463         +/- 0.003131     (0.2153%)
+b               = 0.414649         +/- 0.1083       (26.12%)
+c               = -1.71731         +/- 0.7653       (44.56%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.972  1.000 
+c               0.936 -0.988  1.000 
+
+
+*******************************************************************************
+Mon Nov  6 09:06:44 2017
+
+
+FIT:    data read from "DMRG.txt" u ($1):($2)
+        format = x:z
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: P(x)
+	P(x)=a1+b1*(x**(2))+c1*(x**(4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1            c1           
+   0 4.9303806576e-32   0.00e+00  8.70e-01   -1.506317e+00   3.108640e-02  -1.253026e+01
+   1 4.9303806576e-32   0.00e+00  8.70e-02   -1.506317e+00   3.108640e-02  -1.253026e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 4.93038e-32
+abs. change during last iteration : 0
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a1              = -1.50632       
+b1              = 0.0310864      
+c1              = -12.5303       
+
+
+*******************************************************************************
+Mon Nov  6 09:10:16 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.660000]
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: G(x)
+	G(x)=a+b*(x**(2))+c*(x**(4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.0327393908e-06   0.00e+00  8.40e-01   -1.454630e+00   4.146490e-01  -1.717312e+00
+   1 1.0327393908e-06   0.00e+00  8.40e+00   -1.454630e+00   4.146490e-01  -1.717312e+00
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.03274e-06
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00101624
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.03274e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1.45463         +/- 0.003131     (0.2153%)
+b               = 0.414649         +/- 0.1083       (26.12%)
+c               = -1.71731         +/- 0.7653       (44.56%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.972  1.000 
+c               0.936 -0.988  1.000 
+
+
+*******************************************************************************
+Mon Nov  6 09:10:16 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($3)
+        format = x:z
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: P(x)
+	P(x)=a1+b1*(x**(2))+c1*(x**(4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1            c1           
+   0 8.5607154850e-02   0.00e+00  8.71e-01   -1.506317e+00   3.108640e-02  -1.253026e+01
+   7 5.8260402585e-07  -1.47e-03  8.71e-08   -1.444299e+00   1.821798e-01   8.782682e-01
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 5.82604e-07
+rel. change during last iteration : -1.46661e-08
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000763285
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.82604e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = -1.4443          +/- 0.002352     (0.1628%)
+b1              = 0.18218          +/- 0.08133      (44.64%)
+c1              = 0.878268         +/- 0.5748       (65.45%)
+
+correlation matrix of the fit parameters:
+                a1     b1     c1     
+a1              1.000 
+b1             -0.972  1.000 
+c1              0.936 -0.988  1.000 
+
+
+*******************************************************************************
+Mon Nov  6 09:10:31 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.660000]
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: G(x)
+	G(x)=a+b*(x**(2))+c*(x**(4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.0327393908e-06   0.00e+00  8.40e-01   -1.454630e+00   4.146490e-01  -1.717312e+00
+   1 1.0327393908e-06   0.00e+00  8.40e+00   -1.454630e+00   4.146490e-01  -1.717312e+00
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.03274e-06
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00101624
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.03274e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1.45463         +/- 0.003131     (0.2153%)
+b               = 0.414649         +/- 0.1083       (26.12%)
+c               = -1.71731         +/- 0.7653       (44.56%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.972  1.000 
+c               0.936 -0.988  1.000 
+
+
+*******************************************************************************
+Mon Nov  6 09:10:31 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($3)
+        format = x:z
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: P(x)
+	P(x)=a1+b1*(x**(2))+c1*(x**(4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1            c1           
+   0 5.8260402585e-07   0.00e+00  8.34e-01   -1.444299e+00   1.821798e-01   8.782682e-01
+   1 5.8260402585e-07  -3.38e-09  8.34e-02   -1.444299e+00   1.821798e-01   8.782682e-01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 5.82604e-07
+rel. change during last iteration : -3.38026e-14
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000763285
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.82604e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = -1.4443          +/- 0.002352     (0.1628%)
+b1              = 0.18218          +/- 0.08133      (44.64%)
+c1              = 0.878268         +/- 0.5748       (65.45%)
+
+correlation matrix of the fit parameters:
+                a1     b1     c1     
+a1              1.000 
+b1             -0.972  1.000 
+c1              0.936 -0.988  1.000 
+
+
+*******************************************************************************
+Mon Nov  6 09:10:49 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.660000]
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: G(x)
+	G(x)=a+b*(x**(2))+c*(x**(4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.0327393908e-06   0.00e+00  8.40e-01   -1.454630e+00   4.146490e-01  -1.717312e+00
+   1 1.0327393908e-06   0.00e+00  8.40e+00   -1.454630e+00   4.146490e-01  -1.717312e+00
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.03274e-06
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00101624
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.03274e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1.45463         +/- 0.003131     (0.2153%)
+b               = 0.414649         +/- 0.1083       (26.12%)
+c               = -1.71731         +/- 0.7653       (44.56%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.972  1.000 
+c               0.936 -0.988  1.000 
+
+
+*******************************************************************************
+Mon Nov  6 09:10:49 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($3)
+        format = x:z
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: P(x)
+	P(x)=a1+b1*(x**(2))+c1*(x**(4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1            c1           
+   0 5.8260402585e-07   0.00e+00  8.34e-01   -1.444299e+00   1.821798e-01   8.782682e-01
+   1 5.8260402585e-07   0.00e+00  8.34e-01   -1.444299e+00   1.821798e-01   8.782682e-01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 5.82604e-07
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000763285
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.82604e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = -1.4443          +/- 0.002352     (0.1628%)
+b1              = 0.18218          +/- 0.08133      (44.64%)
+c1              = 0.878268         +/- 0.5748       (65.45%)
+
+correlation matrix of the fit parameters:
+                a1     b1     c1     
+a1              1.000 
+b1             -0.972  1.000 
+c1              0.936 -0.988  1.000 
+
+
+*******************************************************************************
+Mon Nov  6 09:11:50 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($2)
+        format = x:z
+        x range restricted to [0.100000 : 0.660000]
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: G(x)
+	G(x)=a+b*(x**(2))+c*(x**(4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.0327393908e-06   0.00e+00  8.40e-01   -1.454630e+00   4.146490e-01  -1.717312e+00
+   1 1.0327393908e-06   0.00e+00  8.40e+00   -1.454630e+00   4.146490e-01  -1.717312e+00
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.03274e-06
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00101624
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.03274e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1.45463         +/- 0.003131     (0.2153%)
+b               = 0.414649         +/- 0.1083       (26.12%)
+c               = -1.71731         +/- 0.7653       (44.56%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.972  1.000 
+c               0.936 -0.988  1.000 
+
+
+*******************************************************************************
+Mon Nov  6 09:11:50 2017
+
+
+FIT:    data read from "ipeps.txt" u ($1):($3)
+        format = x:z
+        x range restricted to [0.100000 : 0.320000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: P(x)
+	P(x)=a1+b1*(x**(2))+c1*(x**(4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1            c1           
+   0 5.8063170159e-07   0.00e+00  8.34e-01   -1.444299e+00   1.821798e-01   8.782682e-01
+  10 4.9303806576e-32   0.00e+00  8.34e-11   -1.450533e+00   4.889533e-01  -2.515533e+00
+
+After 10 iterations the fit converged.
+final sum of squares of residuals : 4.93038e-32
+abs. change during last iteration : 0
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a1              = -1.45053       
+b1              = 0.488953       
+c1              = -2.51553       

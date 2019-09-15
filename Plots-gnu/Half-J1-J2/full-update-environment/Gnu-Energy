@@ -1,0 +1,14 @@
+#set terminal postscript eps enhanced color font 'Helvetica,14' lw 3
+set terminal postscript eps size 5.3,5.3 enhanced color font 'Helvetica,20' lw 3
+#test
+set xtics font "Times-Roman, 30"
+set ytics font "Times-Roman, 30"
+set xlabel "{/Symbol c}"   font ",30" textcolor rgb "black"
+set ylabel 'E'  font ",30"  textcolor rgb "black"
+set ytics (-0.66879,-0.66919,-0.66936)
+set key t r  
+set key font ",30"
+set key spacing 6
+#set key at 0.1,0.7
+set output "HeisenbergSU.eps"
+p [0:160] [-0.66946 : -0.66829 ] "D4.txt"  t "D=4"  with linespoints pointtype 1  ps 3.0, "D5.txt"  t "D=5" with linespoints  pointtype 6  ps 3.0, "D6.txt"  t "D=6" with linespoints   pointtype 4  ps 3.0

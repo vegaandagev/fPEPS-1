@@ -1,0 +1,148 @@
+
+
+*******************************************************************************
+Tue Jul  4 09:58:32 2017
+
+
+FIT:    data read from "CorrelationHH7.txt" u ((log(abs($1)))*(1/log(10))):((log(abs($2)))*(1/log(10)))
+        format = x:z
+        x range restricted to [0.301030 : 0.698970]
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: s(x)
+	s(x)=(a*x)+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 6.0416598455e+01   0.00e+00  8.04e-01    1.000000e+00   1.000000e+00
+   4 5.0805296658e-03  -5.35e-02  8.04e-05   -3.050240e+00  -7.339390e-01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.00508053
+rel. change during last iteration : -5.3506e-07
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.050401
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00254026
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -3.05024         +/- 0.1694       (5.553%)
+b               = -0.733939        +/- 0.09158      (12.48%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.961  1.000 
+
+
+*******************************************************************************
+Tue Jul  4 10:00:06 2017
+
+
+FIT:    data read from "CorrelationHH7.txt" u ((log(abs($1)))*(1/log(10))):((log(abs($2)))*(1/log(10)))
+        format = x:z
+        x range restricted to [0.301030 : 0.698970]
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: s(x)
+	s(x)=(a*x)+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 5.0805296658e-03   0.00e+00  1.28e+00   -3.050240e+00  -7.339390e-01
+   1 5.0805296658e-03  -8.02e-10  1.28e-01   -3.050240e+00  -7.339390e-01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0.00508053
+rel. change during last iteration : -8.02397e-15
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.050401
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00254026
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -3.05024         +/- 0.1694       (5.553%)
+b               = -0.733939        +/- 0.09158      (12.48%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.961  1.000 
+
+
+*******************************************************************************
+Tue Jul  4 10:00:10 2017
+
+
+FIT:    data read from "CorrelationHH7.txt" u ((log(abs($1)))*(1/log(10))):((log(abs($2)))*(1/log(10)))
+        format = x:z
+        x range restricted to [0.301030 : 0.698970]
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: s(x)
+	s(x)=(a*x)+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 6.0416598455e+01   0.00e+00  8.04e-01    1.000000e+00   1.000000e+00
+   4 5.0805296658e-03  -5.35e-02  8.04e-05   -3.050240e+00  -7.339390e-01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.00508053
+rel. change during last iteration : -5.3506e-07
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.050401
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00254026
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -3.05024         +/- 0.1694       (5.553%)
+b               = -0.733939        +/- 0.09158      (12.48%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.961  1.000 
+
+
+*******************************************************************************
+Tue Jul  4 10:02:11 2017
+
+
+FIT:    data read from "CorrelationHH7.txt" u ((log(abs($1)))*(1/log(10))):((log(abs($2)))*(1/log(10)))
+        format = x:z
+        x range restricted to [0.301030 : 0.698970]
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: s(x)
+	s(x)=(a*x)+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 6.0416598455e+01   0.00e+00  8.04e-01    1.000000e+00   1.000000e+00
+   4 5.0805296658e-03  -5.35e-02  8.04e-05   -3.050240e+00  -7.339390e-01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.00508053
+rel. change during last iteration : -5.3506e-07
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.050401
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00254026
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -3.05024         +/- 0.1694       (5.553%)
+b               = -0.733939        +/- 0.09158      (12.48%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.961  1.000 

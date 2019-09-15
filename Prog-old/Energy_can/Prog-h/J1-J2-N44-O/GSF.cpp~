@@ -1,0 +1,37 @@
+#include"Header.h"
+void GSF(cx_mat * TI,cx_mat * TIp,ofstream & Fidelity,ofstream &Nonlocal,ofstream &Nonlocalhalf,ofstream &Spectrum
+,ofstream&VNE,double&J)
+{
+int Xl=Xi[1];
+cx_mat Help0;
+Help0=trans(TIp[0])*TI[0];
+complex<double> s;
+s=0;
+s=Help0(0,0);
+Fidelity<<setprecision (15)<<" "<<abs(s)<<endl;
+/*******************************************************/
+if(Xl<=70){
+cx_mat Spectrum1(Xl*Xl,Xl*Xl);
+
+for(int i=0;i<Xl;i++)
+    for(int j=0;j<Xl;j++)
+        for(int m=0;m<Xl;m++)
+            for(int n=0;n<Xl;n++)
+Spectrum1(i*Xl+j,m*Xl+n)=TI[0](i*Xl*Xl*Xl+j*Xl*Xl+m*Xl+n,0);
+
+cx_mat U;
+cx_mat V;
+vec s0;
+svd_econ(U, s0, V, Spectrum1,'b',"std");
+vec NVecH=pow(s0,2);
+if(Xl>=15){
+for(int i=0;i<15;i++)
+Spectrum<<J<<"  "<<setprecision(15)<<NVecH(i)<<endl;
+Spectrum<<endl<<endl;}
+complex <double> nsun=0;
+for(int i=0;i<Xl*Xl;i++){
+if(NVecH(i)>1.0e-15)
+nsun=(-NVecH(i)*((log(NVecH(i)))/log(2)))+nsun;
+}
+VNE<<setprecision(15)<<" "<<real(nsun)<<endl;}
+}

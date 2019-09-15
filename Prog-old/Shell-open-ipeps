@@ -1,0 +1,28 @@
+#!/bin/bash
+
+path0='/home/reza/Dropbox/lo11224/ipeps-symmetric-FU/ipeps.py'
+path01='/home/reza/Dropbox/lo11224/ipeps-symmetric-FU/Fullupdate.py'
+path00='/home/reza/Dropbox/lo11224/ipeps-symmetric-FU/basic.py'
+path10='/home/reza/Dropbox/lo11224/ipeps-symmetric-FU/basicC.py'
+path1='/home/reza/Dropbox/lo11224/ipeps-symmetric-FU/basicB.py'
+path2='/home/reza/Dropbox/lo11224/ipeps-symmetric-FU/MoveCorboz.py'
+path3='/home/reza/Dropbox/lo11224/ipeps-symmetric-FU/MoveFull.py'
+path4='/home/reza/Dropbox/lo11224/ipeps-symmetric-FU/TruncateU.py'
+
+
+
+echo "Do I open all files regarding ipeps project?"
+read Answers
+if [ $Answers = yes ] 
+ then gedit $path0 $path10 $path01 $path00 $path1  $path2 $path3 $path4 &
+elif [ $Answers = no ] ; then
+ echo "Part of them? "
+ read Answers
+ if [ $Answers = yes ] ; then
+    gedit $path0 $path10 $path01 $path00 $path10 &
+fi
+fi     
+
+
+
+

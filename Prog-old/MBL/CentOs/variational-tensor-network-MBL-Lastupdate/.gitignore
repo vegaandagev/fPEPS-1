@@ -1,0 +1,6 @@
+*.[oa]
+*.out
+*~
+*.pyc
+*.pdf
+/Data/*.txt
